@@ -1,0 +1,320 @@
+
+.body{
+	margin: 0px;
+	padding: 5px;
+	background-color: #ecf0f1;
+}
+
+.corner{
+	border: 1px solid #9b59b6;
+	border-top-left-radius: 1em;
+	border-top-right-radius: 1em;
+	height: 80px;
+	position: relative;
+
+}
+.wraper{
+	background-color: white;
+	margin-left: auto;
+	margin-right: auto;
+	width: 90%;
+	box-shadow: 0px 0px 8px #9b59b6;
+}
+.corner2{
+	margin-top: 5px;
+	border: 1px solid #9b59b6;
+
+}
+.header{
+	height: 80px;
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	width: 100%;
+
+}
+.logo{
+	margin-top: 13px;
+	float: left;
+}
+.xx{
+	margin-left: 3%;
+	float: left;
+}
+.images{
+	float: left;
+}
+.margin{
+	margin-top: 11px;
+	margin-left: 1%;
+}
+
+.menu{
+	width: 25%;
+	background-color: #1abc9c;
+	clear: both;
+	height: 50px;
+
+}
+.text-header{
+	font-size: 18px;
+	float: left;
+	margin-left: 4%;
+	margin-top: 30px;
+	font-family: Copperplate,"Copperplate Gothic Light",fantasy;
+	color: #2ecc71;
+	width: 50%;
+	text-align: center;
+}
+.hea{
+	height: 50px;
+	background-color:white;
+	width: 90%;
+}
+.social{
+	float: right;
+	width: 15%;
+	margin-top: 5px;
+	position: relative;
+}
+.link{
+	text-decoration: none;
+	color: #ecf0f1;
+}
+
+.login{
+	float: right;
+	margin-top: 5px;
+	position: absolute;
+	margin-left: 30%;
+	display: block;
+	background-color: #2ecc71;
+	padding: 3px;
+	font-family: Copperplate,"Copperplate Gothic Light",fantasy;
+	box-shadow: 0px 0px 10px #2ecc71;
+	border: 1px solid #2ecc71;
+	border-top-left-radius: 0.2em;
+	border-top-right-radius: 0.2em;
+	border-bottom-right-radius: 0.2em;
+	border-bottom-left-radius: 0.2em;
+}
+.login:hover{
+	background-color: #9b59b6;
+
+}
+.box{
+	float: left;
+	background-color: #9b59b6;
+	width: 15%;
+	text-align: center;
+	margin: 20px;
+	font-family: Copperplate,"Copperplate Gothic Light",fantasy;
+	font-size: 20px;
+	text-shadow: 0.1px 0.1px  14px #2ecc71;
+	padding: 10px;
+	border-radius: 6px;
+}
+.boxx:hover{
+	opacity: 0.7;
+}
+.box-set{
+	height: 80px;
+}
+
+#box1{
+	position: relative;
+	margin-left: 5%;
+}
+#box2{
+	position: absolute;
+	margin-left: 24.5%;
+}
+#box3{
+	position: absolute;
+	margin-left: 46%;
+	list-style-type: none;
+}
+
+.lista{
+	padding: 0px;
+}
+.nivel:hover{
+	background-color: #2ecc71;
+	border-radius: 6px;
+
+
+}
+
+#box4{
+	position: absolute;
+	margin-left: 67%;
+
+}
+
+.slider{
+	margin: 20px;
+	padding: 5px;
+	width: 590px;
+	box-shadow: 0px 0px 10px #9b59b6;
+	float: left;
+}
+
+.slider-holder{
+	width: 580px;
+    height: 400px;        
+    margin: 5px;
+    text-align: center;
+	overflow: hidden;
+}
+        
+.image-holder
+        {
+    width: 3200px;
+    height: 400px;
+    clear: both;
+    position: relative;       
+    transition: left 2s;
+}
+        
+.slider-image{
+    float: left;
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+}
+        
+#slider-image-1:target ~ .image-holder{
+    left: 0px;
+}
+        
+#slider-image-2:target ~ .image-holder{
+     left: -800px;
+}     
+
+#slider-image-3:target ~ .image-holder{   
+   left: -1600px;
+}
+
+#slider-image-4:target ~ .image-holder{
+    left: -2400px;
+}
+.button-holder{
+    position: relative;
+    top: -25px;
+}        
+.slider-change{
+    display: inline-block;
+    height: 10px;
+    width: 10px;
+    background-color: #2ecc71;
+}
+.slider-change:hover{
+   opacity: 0.5;
+}
+
+.text-continut{
+	width: 40%;
+	height: 420px;
+	padding-top: 40px;
+	margin-left: 55%;
+	font-family: Copperplate,"Copperplate Gothic Light",fantasy;
+	font-size: 20px;
+	text-align: justify;
+	text-shadow: 0.5px 1px  #9b59b6;
+}
+.box-adopt{
+	height: 360px;
+
+	
+}
+
+.adopt{
+	margin: 20px;
+	padding: 5px;
+	width: 460px;
+	height: 315px;
+	box-shadow: 0px 0px 10px #9b59b6;
+	position: absolute;
+	
+}
+
+.buton-adopt{
+	color: #9b59b6;
+	background-color: #2ecc71;
+	height: 30px;
+	float: left;
+	margin-left: 47%;
+	padding: 20px;
+	text-align: center;
+	margin-top: 140px;
+	width: 30%;
+	font-family: Copperplate,"Copperplate Gothic Light",fantasy;
+	font-size: 30px;
+	border: 1px solid #9b59b6;
+	border-radius: 6px;
+	position: absolute;
+}
+.buton-adopt:hover{
+	opacity: 0.9;
+	background-color: #95a5a6;
+}
+
+.text-mare{
+	font-size: 36px;
+	font-family: Copperplate,"Copperplate Gothic Light",fantasy;
+	color: #9b59b6;
+	text-shadow: 1px 2px  #34495e;
+	padding: 20px;
+}
+
+
+
+
+.text-left{
+	text-align: left;
+	font-size: 20px;
+	text-align: justify;
+	padding: 15px;
+}
+.text-centru{
+	text-align: center;
+}
+
+.poza-1{
+	float: left;
+	padding: 20px;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+ .poza-2{
+ 	margin-left: auto;
+ 	margin-right: auto;
+ 	width: 600px;
+ }
+
+.rama{
+	padding: 10px;
+	border: 1px solid #9b59b6;
+	box-shadow: 0px 0px 10px #9b59b6;
+
+}
+.fundal-titlu{
+	background-image:url("https://previews.123rf.com/images/karenr/karenr1605/karenr160500057/57821922-Blue-and-Beige-Dog-Paw-Prints-Puppy-Bone-and-Hearts-Tile-Pattern-Repeat-Background-that-is-seamless--Stock-Photo.jpg");
+	width: 99%;
+	height: 100px;
+	margin: 5px;
+}
+
+
+
+
+
+ul li ul li {
+ 	display: none;
+}
+
+ ul li:hover ul li{
+ 	display: block;
+ 	text-align: center;
+ 	margin-left: 0px;
+ }
